@@ -4,7 +4,7 @@ function calculateScore(callback) {
   const ans2 = document.getElementById('q2').value.trim();
 
   const userAnswers = [ans1, ans2];
-  const correctAnswers = ["4", "Paris"];
+  const correctAnswers = ["4", "New Delhi"];
 
   const score = callback(userAnswers, correctAnswers);
 
